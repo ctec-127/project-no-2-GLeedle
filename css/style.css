@@ -1,7 +1,107 @@
 /* style.css */
 
 body {
+    background: #474747;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 1rem;
+}
+
+h1 {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 1rem;
     margin: 0;
-    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+h3 {
+    background: #333e4e;
+    color: #ffffff;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 1rem;
+}
+
+form {
+    background: #9ea2af;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+fieldset {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0;
+}
+
+legend {
+    background: #333e4e;
+    color: #ffffff;
+    padding: .2rem;
+    margin: .2rem;
+    border: solid .1rem #000000;
+    width: 50%;
+    font-size: 1rem;
+}
+
+footer {
+    width: 970px;
+}
+
+.red_class {
+    background: #290e0e;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.blue_class {
+    background: #272a49;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.green_class {
+    background: #193a14;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.oops_class {
+    background: #ff0202;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.name_class {
+    background: #1a1a1a;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
 }
