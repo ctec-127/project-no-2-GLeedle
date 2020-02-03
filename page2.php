@@ -44,7 +44,7 @@
                     echo "The background you choose is blue!</div>";
                 } elseif ($bgcolor == "green") {
                     echo "<div class=\"green_class\">";
-                    echo "The background you choose green!</div>";
+                    echo "The background you choose is green!</div>";
                 } elseif ($bgcolor == "oops") {
                     echo "<div class=\"oops_class\">";
                     echo "Oops, you got an error!</div>";
