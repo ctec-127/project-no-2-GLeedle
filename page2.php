@@ -20,7 +20,7 @@
                 $name = ucfirst($name);
                 if (!empty($name)) {
                     echo "<div class=\"name_class\">Hello $name, Welcome to my page!<br><br><p>The query string parameter called \"name\" has been passed to this page 
-                    and what ever you type above after /page2.php/name= will be displayed after the word \"Hello\". </div> ";
+                    and what ever you type above after /page2.php?/name= will be displayed after the word \"Hello\". </div> ";
                 }
             }
             if (isset($_GET["pet"])) {
@@ -51,7 +51,7 @@
                 }
             }
             if (!empty($_GET["pic"])) {
-                echo "<h3>The query string parameter has been passed \"warrior\" you can also change it to:<br>/page2.php/pic=mage<br>/page2.php/pic=rogue</h3>";
+                echo "<h3>The query string parameter has been passed \"warrior\" you can also change it to:<br>/page2.php?/pic=mage<br>/page2.php?/pic=rogue</h3>";
                 if ($_GET["pic"] == "warrior") {
                     echo "<img src=\"img/warrior.jpg\" alt=\"a Warrior\">";
                 } elseif ($_GET["pic"] == "mage") {
