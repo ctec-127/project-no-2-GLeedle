@@ -61,7 +61,7 @@
                 }
             } // end of if condition for class parameter
             if (!empty($_GET["font_type"])) { // checks to see if the font_type parameter is set
-                echo "<br><div class=\"info\">This query parameter \"font_type\" has passed in \"zhi\" which chose to display that font type when it received /page2.php?font_type=zhi you can also choose:<br>/page2.php?molle<br>/page2.php?font_type=marker</div>";
+                echo "<br><div class=\"info\">This query parameter \"font_type\" has passed in \"zhi\" which chose to display that font type when it received /page2.php?font_type=zhi you can also choose:<br>/page2.php?font_type=molle<br>/page2.php?font_type=marker</div>";
                 if ($_GET["font_type"] == "zhi") { // checks to see if the font_type paramter is set to zhi
                     echo "<div class=\"zhi\">";
                     echo "This is displaying the Zhi Mang Xing font and this page was passed page2.php?font_type=zhi</div>";
