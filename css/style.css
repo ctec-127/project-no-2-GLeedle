@@ -1,5 +1,6 @@
 /* style.css */
 
+@import url('https://fonts.googleapis.com/css?family=Molle:400i|Permanent+Marker|Zhi+Mang+Xing&display=swap');
 body {
     background: #474747;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,6 +62,23 @@ footer {
     width: 970px;
 }
 
+.info {
+    background: #272d36;
+    color: #ffffff;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.name_class {
+    background: #1a1a1a;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
 .red_class {
     background: #290e0e;
     width: 100%;
@@ -97,11 +115,23 @@ footer {
     font-size: 1.5rem;
 }
 
-.name_class {
-    background: #1a1a1a;
-    width: 100%;
-    color: #ffffff;
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
+.zhi {
+    background: #563289;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.molle {
+    background: #327889;
+    font-family: 'Molle', cursive;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.marker {
+    background: #328932;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    padding: 2rem;
 }

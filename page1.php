@@ -31,7 +31,10 @@
             <p><input type="text" name="bgcolor"></p>
         </fieldset>
         <input type="submit"><br><br>
-        <p><a href="page2.php?pic=warrior">Click here and it will pass a query string parameter of /page2.php?pic=warrior </a></p>
+        <p><a href="page2.php?class=warrior">Click here and it will pass a query string parameter of /page2.php?pic=warrior </a></p>
+        <p><a href="page2.php?font_type=zhi">Click here and it will pass a query string parameter of /page2.php?font_type=zhi</a></p>
+        <p><a href="page2.php?park=geese">Click here and it will pass a query string parameter of /page2.php?park=geese</a></p>
+
     </form>
     <?php require "inc/proj2_footer.inc.php"; ?>
     <!-- jQuery -->
