@@ -84,7 +84,7 @@
         }
 
 
-        ?> <h4><a href="page1.php">Having Fun? Click here to try again!</a></h4>
+        ?> <h4><a href="page1.php">Click here to return to page1.php</a></h4>
     <!-- requires footer each time it displays results -->
     <?php require "inc/proj2_footer.inc.php"; ?>
 

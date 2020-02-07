@@ -20,8 +20,7 @@
                 <p><input type="text" name="name"></p>
             </fieldset>
             <fieldset>
-                <legend>Please choose a pet!</legend>
-                <p>Below are 3 choices that will pass a query string perameter to page2.php called "pet"</p>
+                <legend>Below are 3 choices that will pass a query string perameter to page2.php called "pet"</legend>
                 <p><label for="dog"><input type="radio" name="pet" value="dog" id="dog"> Dog</label></p>
                 <p><label for="cat"><input type="radio" name="pet" value="cat" id="cat"> Cat</label></p>
                 <p><label for="deer"><input type="radio" name="pet" value="deer" id="deer"> Deer</label></p>
@@ -31,10 +30,18 @@
                 <p><input type="text" name="bgcolor"></p>
             </fieldset>
             <input type="submit"><br><br>
-            <H5>Choose your Class:</H5><a href="page2.php?class=warrior">Click here and it will pass a query string parameter of /page2.php?pic=warrior </a>
-            <H5>Choose your Font:</H5><a href="page2.php?font_type=zhi">Click here and it will pass a query string parameter of /page2.php?font_type=zhi</a>
-            <H5>Display Park:</H5><a href="page2.php?park=geese">Click here and it will pass a query string parameter of /page2.php?park=geese</a>
-            <H5>Display Leedle Mill:</H5><a href="page2.php?building=mill">Click here and it will pass a query string parameter of /page2.php?building=mill</a>
+            <H5>Choose your Class:</H5><a href="page2.php?class=warrior">
+                <p>Click here and it will pass a query string parameter of /page2.php?pic=warrior</p>
+            </a><br>
+            <H5>Choose your Font:</H5><a href="page2.php?font_type=zhi">
+                <p>Click here and it will pass a query string parameter of /page2.php?font_type=zhi</p>
+            </a><br>
+            <H5>Display Park:</H5><a href="page2.php?park=geese">
+                <p>Click here and it will pass a query string parameter of /page2.php?park=geese</p>
+            </a><br>
+            <H5>Display Leedle Mill:</H5><a href="page2.php?building=mill">
+                <p>Click here and it will pass a query string parameter of /page2.php?building=mill</p>
+            </a>
         </form>
     </main>
     <?php require "inc/proj2_footer.inc.php"; ?>

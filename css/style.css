@@ -12,6 +12,31 @@ main {
     background: #303544;
 }
 
+header {
+    font-family: 'Times New Roman', Times, serif;
+    background: #9ea2af;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+table {
+    background: #9ea2af;
+    color: #000000;
+}
+
+tr, td {
+    padding: .5rem 3rem .5rem .5rem;
+}
+
+th {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: .5rem 3rem .5rem .5rem;
+}
+
 h1 {
     background: #1a1a1a;
     color: #ffffff;
