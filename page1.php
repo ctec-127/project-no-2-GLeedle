@@ -23,16 +23,16 @@
 
                 <fieldset>
                     <legend>Below are 3 choices that will pass a query string perameter to page2.php called "pet"</legend>
-                    <p><label for="dog"><input type="radio" name="pet" value="dog" id="dog"> Dog</label></p>
-                    <p><label for="cat"><input type="radio" name="pet" value="cat" id="cat"> Cat</label></p>
-                    <p><label for="deer"><input type="radio" name="pet" value="deer" id="deer"> Deer</label></p>
+                    <p><input type="radio" name="pet" value="dog" id="dog"> <label for="dog">Dog</label></p>
+                    <p><input type="radio" name="pet" value="cat" id="cat"> <label for="cat">Cat</label></p>
+                    <p><input type="radio" name="pet" value="deer" id="deer"> <label for="deer">Deer</label></p>
                 </fieldset>
 
                 <div class="form-group">
                     <fieldset>
                         <legend>What color would you like the background to be? Please type red, blue or green only!</legend>
                         <label for="bgcolor"></label>
-                        <p><input class="form-control" type="text" name="bgcolor" id="bgcolor"></p>
+                        <input class="form-control" type="text" name="bgcolor" id="bgcolor">
                     </fieldset>
 
                     <input type="submit" value="Submit Query Parameters" class="btn btn-primary"><br><br>
