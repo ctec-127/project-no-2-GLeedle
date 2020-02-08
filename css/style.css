@@ -2,28 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css?family=Molle:400i|Permanent+Marker|Zhi+Mang+Xing&display=swap');
 body {
-    background: #474747;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
     width: 968px;
-}
-
-main {
-    background: #303544;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 1rem;
 }
 
 header {
     font-family: 'Times New Roman', Times, serif;
-    background: #9ea2af;
+    background: #ffffff;
     padding: 1rem;
     font-weight: bold;
     text-align: center;
     font-size: 1.2rem;
 }
 
-table {
-    background: #9ea2af;
-    color: #000000;
+img {
+    width: 100%;
 }
 
 tr, td {
@@ -31,17 +27,19 @@ tr, td {
 }
 
 th {
-    background: #1a1a1a;
+    background: #0069D9;
     color: #ffffff;
     padding: .5rem 3rem .5rem .5rem;
+    text-align: center;
 }
 
 h1 {
-    background: #1a1a1a;
+    background: #0069D9;
     color: #ffffff;
     padding: 1rem;
     margin: 0;
     text-align: center;
+    border-radius: 5px;
 }
 
 h2 {
@@ -50,7 +48,7 @@ h2 {
 }
 
 h3 {
-    background: #333e4e;
+    background: #0069D9;
     color: #ffffff;
     padding: 1rem;
     margin: 0;
@@ -58,13 +56,16 @@ h3 {
 }
 
 h4 {
-    background: #1a1a1a;
     text-align: center;
     padding: 1rem;
 }
 
+h4 a:link, a:visited {
+    color: #0069D9;
+}
+
 form {
-    background: #9ea2af;
+    background: #ffffff;
     padding: 1rem;
     margin: 1rem;
 }
@@ -72,23 +73,22 @@ form {
 fieldset {
     margin: 1rem;
     padding: 1rem;
-    box-shadow: 0 4px 8px 0;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); */
 }
 
 legend {
-    background: #333e4e;
+    background: #0069D9;
     color: #ffffff;
-    padding: .2rem;
-    margin: .2rem;
-    border: solid .1rem #000000;
-    width: 50%;
+    padding: .5rem;
+    margin: auto;
+    border-radius: 5px;
     font-size: 1rem;
 }
 
 footer {
-    width: 968px;
-    background: #1a1a1a;
+    background: #0069D9;
     color: #ffffff;
+    border-radius: 5px;
     padding: 1rem;
     margin: 0 auto;
     text-align: center;
@@ -97,19 +97,19 @@ footer {
 }
 
 .info {
-    background: #272d36;
+    background: #0069D9;
     color: #ffffff;
     padding: 1rem;
     margin: 0;
     text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .name_class {
-    background: #1a1a1a;
-    color: #ffffff;
     text-align: center;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     height: 400px;
 }
 

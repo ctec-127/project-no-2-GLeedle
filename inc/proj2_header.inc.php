@@ -1,7 +1,7 @@
     <header>
         <h1>CTEC 127 Project 2</h1>
         <h2>Welcome to the PHP query parameter site!</h2>
-        <div class="main_header">
+        <div class="form-group">
             <p>Here are the parameters that you can choose to pass:</p>
             <p>/page2.php?name=&pet=&bgcolor=&font_type=&class=&park=&building=</p>
         </div>
