@@ -22,10 +22,13 @@
                 </fieldset>
 
                 <fieldset>
+
                     <legend>Below are 3 choices that will pass a query string perameter to page2.php called "pet"</legend>
-                    <p><input type="radio" name="pet" value="dog" id="dog"> <label for="dog">Dog</label></p>
-                    <p><input type="radio" name="pet" value="cat" id="cat"> <label for="cat">Cat</label></p>
-                    <p><input type="radio" name="pet" value="deer" id="deer"> <label for="deer">Deer</label></p>
+                    <div class="custom-control custom-radio">
+                        <p><input class="custom-control-input" type="radio" name="pet" value="dog" id="dog"> <label class="custom-control-label" for="dog">Dog</label></p>
+                        <p><input class="custom-control-input" type="radio" name="pet" value="cat" id="cat"> <label class="custom-control-label" for="cat">Cat</label></p>
+                        <p><input class="custom-control-input" type="radio" name="pet" value="deer" id="deer"> <label class="custom-control-label" for="deer">Deer</label></p>
+                    </div>
                 </fieldset>
 
                 <div class="form-group">

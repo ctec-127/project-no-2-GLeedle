@@ -34,19 +34,19 @@
                 }
             } // end of if condition for pet parameter
             if (!empty($_GET["bgcolor"])) {
-                $bgcolor = strtolower($_GET["bgcolor"]); // checks to see if bgcolor parameter has been set
+                // $bgcolor = strtolower($_GET["bgcolor"]); // checks to see if bgcolor parameter has been set
                 echo "<br><div class=\"info\">The query string parameter \"bgcolor\" has been passed to this page. You can change the URL to read:<br> /page2.php?bgcolor=red <br>/page2.php?bgcolor=blue<br>/page2.php?bgcolor=green<br>/page2.php?bgcolor=oops</div>";
-                if ($bgcolor == "red") { // checks to see if red was typed and displays the red_class
-                    echo "<div class=\"red_class\">";
+                if ($_GET["bgcolor"] == "red") { // checks to see if red was typed and displays the red_class
+                    echo "<div class=\"" . $_GET["bgcolor"] .  "\">";
                     echo "The background you choose is Red!</div><br>";
-                } elseif ($bgcolor == "blue") { // checks to see if blue was typed and displays the blue_class
-                    echo "<div class=\"blue_class\">";
+                } elseif ($_GET["bgcolor"] == "blue") { // checks to see if blue was typed and displays the blue_class
+                    echo "<div class=\"" . $_GET["bgcolor"] .  "\">";
                     echo "The background you choose is blue!</div><br>";
-                } elseif ($bgcolor == "green") { // checks to see if green was typed and displays the green_class
-                    echo "<div class=\"green_class\">";
+                } elseif ($_GET["bgcolor"] == "green") { // checks to see if green was typed and displays the green_class
+                    echo "<div class=\"" . $_GET["bgcolor"] .  "\">";
                     echo "The background you choose is green!</div><br>";
-                } elseif ($bgcolor == "oops") { // checks to see if oops was typed and displays the oops_class
-                    echo "<div class=\"oops_class\">";
+                } elseif ($_GET["bgcolor"] == "oops") { // checks to see if oops was typed and displays the oops_class
+                    echo "<div class=\"" . $_GET["bgcolor"] .  "\">";
                     echo "Oops, you got an error!</div><br>";
                 }
             } // end of if condition for bgcolor parameter
